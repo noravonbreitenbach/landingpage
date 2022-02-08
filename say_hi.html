@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/1939448736.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Arbutus+Slab&family=DM+Serif+Display:ital@0;1&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <link href="//db.onlinewebfonts.com/c/ee5e0963d4f220cba32a5765cc4f9772?family=PingFang+HK" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>Say Hi</title>
+</head>
+
+   <body>
+    <main>
+        <div class="big-wrapper light">
+            <nav class="navbar">
+                <div class="container">
+                    <div class="logo">
+                        <a href="/index.html" class="Logo">
+                            <img src="./images/Q.png" alt="Quouch" />
+                          </a>
+                    </div>
+                     <div class="name">
+                         <h1>Quouch</h1>
+                     </div>
+                     <div class="links">
+                         <ul>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="say_hi.html">say hi</a></li>
+                            <li><a href="contact.html">sign up</a></li>
+                         </ul>
+                     </div>
+                 </div>
+                 <div class="overlay"></div>
+                <div class="hamburger-menu">
+                    <div class="bar"></div>
+                </div>
+             </nav>
+
+
+             <div class="form2 container--px hide-for-mobile col4" >
+
+             <form onsubmit="return false" class="form">
+                <h1 class="move">Say Hi</h1>
+            <input type="text" placeholder="Name" id="firstName" class="field" />
+            <input type="email" placeholder="Email" id="email" class="field" />
+        
+            <input id="newsletter" type="checkbox" /> <label for="newsletter">Send me monthly newsletter</label>
+            <input id="waitinglist" type="checkbox" /> <label for="waitinglist">Sign up to waiting list</label>
+        
+            <span>Say Hi</span>
+            <br>
+            <textarea id="question" placeholder="Say Hi" rows="4"></textarea>
+            <br>
+        
+            <div class="btn send" onclick="sendContact();">Send </div>
+            </form>
+        </div>
+
+             <div class="bottom-area to-c">
+                <ul class="links7 und container--px hide-for-mobile to-c">
+                             <li><a href="#">Datenschutz&Impressum </a></li>
+                             <li><a href="#">Contact Us </a></li>
+                             <li><a href="#">© quouch 2021 </a></li>
+                         </ul>
+                         <div class="container">
+                          <button class="toggle-btn">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                          </button>
+                        </div>
+                      </div>  
+        </div>  
+       
+    </main>
+    <div data-tf-widget="AJRV84CT" data-tf-iframe-props="title=Contact Us" data-tf-medium="snippet" style="width:100%;height:400px;"></div><script src="//embed.typeform.com/next/embed.js"></script>
+    <script src="./app.js"></script> 
+</body>
